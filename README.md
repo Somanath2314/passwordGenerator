@@ -1,3 +1,9 @@
+# passwordGenerator 
+
+Here is an example of my project:
+
+![Project screenshot](./images/img1.png)
+
 # Understanding React Hooks
 
 React Hooks are functions that let you use state and other React features without writing a class. Here’s a brief overview of some commonly used hooks:
