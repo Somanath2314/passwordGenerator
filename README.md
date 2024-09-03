@@ -22,7 +22,7 @@ function Counter() {
         </div>
     );
 }
-
+```
 ## 2. `useEffect`
 The `useEffect` hook allows you to perform side effects in your components, such as data fetching, subscriptions, or manually changing the DOM. It runs after the first render and after every update, unless you specify dependencies.
 ### Example:
