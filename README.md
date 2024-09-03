@@ -40,7 +40,7 @@ function DataFetcher() {
 
     return <div>{data ? JSON.stringify(data) : 'Loading...'}</div>;
 }
-
+```
 ## 3. `useCallBack`
 ### Example:
 ```javascript
@@ -59,11 +59,14 @@ function ParentComponent() {
 function ChildComponent({ onClick }) {
     return <button onClick={onClick}>Increment</button>;
 }
+```
 ## 4. `useRef`
 The useRef hook allows you to create a mutable object that persists for the full lifetime of the component. It can be used to directly interact with the DOM, such as focusing an input field or storing a previous va
 
 import React, { useRef } from 'react';
 
+###Example:
+```javascript
 function TextInput() {
     const inputRef = useRef(null);
 
@@ -78,3 +81,4 @@ function TextInput() {
         </div>
     );
 }
+```
